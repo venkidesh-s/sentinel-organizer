@@ -1,0 +1,8 @@
+[package]
+name = "sentinel_organizer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# This library allows the program to watch your folders for changes
+notify = "6.1.1"

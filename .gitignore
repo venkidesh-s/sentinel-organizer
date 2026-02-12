@@ -1,0 +1,18 @@
+# --- Rust Specific ---
+# Ignore the folder where compiled code lives (can get very large)
+/target/
+
+# --- Windows/System Specific ---
+# Ignore the VS Code installer and other executables
+*.exe
+*.msi
+
+# --- Academic/Study Files ---
+# If your physics/science PDFs are too large for GitHub, ignore them here
+# watch_me/Documents/*.pdf
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+watch_me/
+target/
